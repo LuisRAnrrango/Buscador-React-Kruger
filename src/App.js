@@ -1,4 +1,3 @@
-
 import "./App.css";
 import { useState } from "react";
 import SearchBar from "./components/searchbar";
@@ -97,7 +96,7 @@ function App() {
   const [data, setData] = useState([...people, ...emails, ...calendar]);
 
   const [selection, setSelection] = useState(null);
-  const [currentOption, setCurrentOption] = useState("all");
+  const [setCurrentOption] = useState("all");
 
   function handleClick(e) {
     const location = e.target.name;
@@ -122,6 +121,7 @@ function App() {
         setData([...calendar]);
         setCurrentOption("calendar");
         break;
+      default:
     }
   }
 
@@ -131,6 +131,7 @@ function App() {
 
   return (
     <div className="App">
+      <h4>Buscador</h4>
       <StyledButton name="all" onClick={handleClick}>
         Search in All
       </StyledButton>

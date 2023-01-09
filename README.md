@@ -7,7 +7,7 @@ In this repository you can find the code of a web application which was develope
 
 ## Available Scripts
 
-<img src='public\images\Moc'>
+<img src='public\images\Mockup-Buscador.png'>
 
 ## Built With
 
