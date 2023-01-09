@@ -1,4 +1,4 @@
-import { useState, useCallback, useMemo } from "react";
+import { useState } from "react";
 import Results from "./results";
 
 import styled from "styled-components";
