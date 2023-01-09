@@ -31,7 +31,7 @@ Use the following steps to run this Portfolio locally:
 
 - get in the directory you want this folder to appear
 
-- put: git clone `https://githubLik`
+- put: git clone `https://github.com/LuisRAnrrango/Buscador-React-Kruger`
 
 - open the folder with a new terminal (This can be done with a code editor or directly in the terminal.)
 - put "npm start"
@@ -40,7 +40,7 @@ Use the following steps to run this Portfolio locally:
 
 For a live demo please click on the following link:
 
-https://LINK
+https://buscador-react-kruger.vercel.app/
 
 ## Author
 
